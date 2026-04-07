@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Đóng Góp Ý Kiến</title>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href ="../style.css">
+  </head>
+  <body>
+    <form>
+     <ol type="1"; class>
+       <li>Thông tin người góp ý<br>
+         <ul class="noidung">
+           <label>Họ và tên:<input type="text" name="txtTen"></label><br>
+           <label>Địa chỉ email:<input type="text"name="txtEmail"></label><br>
+         </ul>
+       </li>
+       <li>Đóng góp ý kiến<br>
+         <ul class="noidung">
+           <label>Ý kiến đóng góp:<textarea name="txtComment" rows="6"cols="40"></textarea> </label>
+         </ul>
+         <input type = "checkbox" name = "chkTruyenNgan"> Truyện ngắn <br>
+         <input type = "checkbox" name = "chkKinang"> Kĩ năng sống <br>
+         <input type = "checkbox" name = "chkCNTT"> Công nghệ thông tin <br>
+         <input type = "checkbox" name = "chkTruyentranh" > Truyện tranh <br>
+         <input type = "checkbox" name = "chkLichsu"> Lịch sử <br>
+         <input type= "submit" name= "cmd" value= "Góp ý" ><br>
+         <input type = "radio" name = "chkLop10" > Lớp 10 <br> 
+         <input type = "radio" name = "chkLop10" > Lớp 11 <br> 
+         <input type = "radio" name = "chkLop10" > Lớp 12 <br>
+       </li>
+       <li>Tham dự môn <br>
+         <input type = "checkbox" name = "chkBongban"> Bóng bàn <br> 
+         <input type = "checkbox" name = "chkCaulong"> Cầu lông <br> 
+         <input type = "checkbox" name = "chkCovua" > Cờ vua <br>
+         <input type= "submit" name= "cmd" value= "đăng kí" ><br>
+       </li>
+     </ol>
+  </body>
+</html>
